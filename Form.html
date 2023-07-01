@@ -1,0 +1,85 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+ <meta charset="UTF-8">
+ <meta http-equiv="X-UA-Compatible" content="IE=edge">
+ <meta name="viewport" content="width=device-width, initial-scale=1.0">
+ <title>Form</title>
+</head>
+
+<body>
+ <h1 align = "center">Student Registration Form</h1>
+ <form id = "my-form" name = "my-form" method = "post" enctype = "multipart/form-data" action = "URL">
+  <br>
+  <fieldset>
+   <legend>Name of applicant</legend>
+  <table>
+   <tr>
+    <td><label>First Name </label><input placeholder="Enter your first name here" type = "text" id = "txtFirstName" name = "Firstname"></td>
+    <td><label>Last Name </label><input placeholder="Enter your last name here" type = "text" id = "txtLastName" name = "Last Name"></td>
+   </tr>
+
+   <tr>
+    <td><label>Date of Birth </label><input type = "date" id = "inputdate" name = "date of birth"> </td>
+   </tr>
+
+   <tr>
+    <td><label>Gender </label><input type = "radio" name = "gender" value = "Male">Male
+     <input type = "radio" name = "gender" value = "Female">Female
+     <input type = "radio" name = "gender" value = "Others">Others</td>
+   </tr>
+
+   <tr>
+    <td><label>Grade </label><input placeholder="GPA" type = "number"></td>
+   </tr>
+   </table>
+  </fieldset>
+
+  <br>
+  
+  <fieldset>
+   <legend>Parent's information</legend>
+  <table>
+   <tr>
+    <td></information:br><label>Father's Name </label><input type = "text" id = "txtfathersName" name = "fathersname"></td>
+   </tr>
+
+   <tr>
+    <td><label>Father's Email </label><input type = "email" id = "txtfathersemail" name = "fathersemail"></td>
+   </tr>
+
+   <tr>
+   <td><label>Father's Occupation </label><input type = "text" id = "txtfathersoccupation" name = "fathersoccupation"><br><br></td>
+   </tr>
+
+   <tr>
+    <td><label>Mother's Name </label><input type = "text" id = "txtmothersname" name = "mothersname"></td>
+   </tr>
+
+   <tr>
+    <td><label>Mother's Email </label><input type = "email" id = "txtmothersemail" name = "mothersemail"></td>
+   </tr>
+
+   <tr>
+    <td><label>Mother's Occupation </label><input type = "text" id = "txtmothersoccupation" name = "mothersoccupation"></td>
+   </tr>
+  </table>
+  </fieldset>
+
+  <br>
+
+  <fieldset>
+   <legend>Address</legend>
+   <label>Residental Address</label>
+   <input type = "textarea" rows = "5" cols = "20"><br>
+   <label>Current Address</label>
+   <input type = "textarea" rows = "5" cols = "20"><br>
+  </fieldset>
+
+  <br>
+
+  <input type = "submit" name = "btnsubmit" value = "login">
+  <input type = "reset" name = "btnsubmit" value = "reset">
+
+ </form>
+</body>
