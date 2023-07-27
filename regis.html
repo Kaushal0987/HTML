@@ -1,0 +1,84 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+ <meta charset="UTF-8">
+ <meta name="viewport" content="width=device-width, initial-scale=1.0">
+ <title>Student Registration Form</title>
+</head>
+
+<body>
+
+ <form action="post" method="post" enctype="multipart/form-data" name="registration">
+
+  <style>
+  table, th, td, fieldset {
+   border-style: dotted;
+   }
+   label {
+    display: inline-block;
+    width: 150px;
+    text-align: right;
+      }
+  </style>
+
+  <table border="1" width="30%" cellspacing="0" cellpadding="8" id="mytable" align="center" style="border-style: dashed;">
+
+   <tr>
+    <td colspan="3" style="font-weight: bold; font-size: 18px;">Student Registration Form</td>
+   </tr>
+
+   <tr>
+    <td ><label >First Name</label></td>
+    <td><input type="text" name="firstname" id="firstname" required></td>
+   </tr>
+
+   <tr>
+    <td ><label>Middle Name</label></td>
+    <td><input type="text" name="middlename" id="middlename"></td>
+   </tr>
+
+   <tr>
+    <td ><label>Last Name</label></td>
+    <td><input type="text" name="lastname" id="lastname" required></td>
+   </tr>
+
+   <tr>
+    <td ><label>Email</label></td>
+    <td><input type="email" name="email" id="email"></td>
+   </tr>
+
+   <tr>
+    <td ><label>Phone-no</label></td>
+    <td><input type="tel" name="phone" id="phone"></td>
+   </tr>
+
+   <tr>
+    <td ><label>College Location</label></td>
+    <td colspan="2"><input type="radio" name="location" value="nepal" required>Nepal
+    <input type="radio" name="location" value="abroad" required>Abroad</td>
+   </tr>
+
+   <tr>
+    <td ><label>College Name</label></td>
+    <td><input type="text" name="college" id="college" required></td>
+   </tr>
+
+   <tr>
+    <td ><label>Degree Studying</label></td>
+    <td><input type="text" name="degree" id="degree" required></td>
+   </tr>
+
+   <tr>
+    <td ><label>Comments</label></td>
+    <td><input type="textbox" name="comments" id="comments"></td>
+   </tr>
+
+   <tr>
+    <td colspan="4" align="center"><fieldset><input type="submit" name="submit" value="submit">
+    <input type="reset" name="cancel" id="cancel"></fieldset></td>
+   </tr>
+   
+  </table>
+ </form>
+</body>
+</html>

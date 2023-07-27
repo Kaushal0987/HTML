@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+ <meta charset="UTF-8">
+ <meta name="viewport" content="width=device-width, initial-scale=1.0">
+ <title>guestbook</title>
+</head>
+<body>
+ <fieldset>
+  <legend>Guestbook</legend>
+  <form action="post" method="guestbook.php" enctype="multipart/form-data" name="guestbook">
+   <label>NAME</label>
+   <input type="text" name="name" id="name" required>
+   <br><br>
+   <label>GENDER</label>
+   <input type="radio" name="gender" value="male"> Male
+   <input type="radio" name="gender" value="female"> female 
+   <input type="radio" name="gender" value="others"> others
+   <br><br>
+   <label>AGE</label>
+   <input type="number" value="age" id="age">
+   <br><br>
+   <label>OCCUPATION</label>
+   <input type="occupation" value="occupation" id="occupation">
+   <br><br>
+   <label>E-MAIL</label>
+   <input type="email" value="email" id="email">
+   <br><br>
+   <label>COMMENT</label>
+   <textarea name="comment" id="comment" rows="5" cols="50">
+   </textarea>
+   <br><br>
+   <input type="submit" name="submit" value="submit">
+   <input type="reset" name="cancel" name="cancel">
+  </form>
+ </fieldset>
+</body>
+</html>

@@ -1,0 +1,69 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+ <meta charset="UTF-8">
+ <meta name="viewport" content="width=device-width, initial-scale=1.0">
+ <title>Guest Book From</title>
+</head>
+<body>
+  <style>
+    body {
+      display: flex;
+      justify-content: center;
+      align-items: center;
+      height: 100vh;
+      margin: 0;
+      background-color: #3c8fb5;
+    }
+
+    .form-container {
+      width: 800px;
+      outline: solid 1px #999;
+      background-color: lightsteelblue;
+      padding: 20px;
+    }
+
+    .form-label {
+      font-size: 18px;
+    }
+
+    .form-input {
+      width: 100%;
+      padding: 5px;
+      font-size: 16px;
+    }
+
+    .form-submit {
+      margin-top: 10px;
+    }
+  </style>
+ <form action="post" method="guestbook.php" enctype="multipart/form-data" name="guestbook">
+  <label>FULL NAME</label>
+  <input type="text" name="fullname" id="fullname" required>
+  <br><br>
+  <label>GENDER</label>
+  <input type="radio" name="gender" value="male"> Male
+  <input type="radio" name="gender" value="female"> female 
+  <input type="radio" name="gender" value="others"> others
+  <br><br>
+  <label>AGE</label>
+  <input type="number" name="age" id="age">
+  <br><br>
+  <label>PHONE-NO</label>
+  <input type="tel" name="phone" id="phone">
+  <br><br>
+  <label>COUNTRY</label>
+  <input type="text" name="country" id="country">
+  <br><br>
+  <label>E-MAIL</label>
+  <input type="email" name="email" id="email">
+  <br><br>
+  <label>MESSAGE</label>
+  <textarea name="message" id="message" rows="5" cols="50">
+  </textarea>
+  <br><br>
+  <input type="submit" name="submit" value="submit">
+  <input type="reset" name="cancel" name="cancel">
+ </form>
+</body>
+</html>
