@@ -1,0 +1,134 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+ <meta charset="UTF-8">
+ <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+ <title>Appointment-Form</title>
+
+ <style>
+
+  body{
+   background-color: whitesmoke;
+  }
+
+  label{
+   font-family: sans-serif;
+   font-size: 13px;
+   font-weight: bold;
+  }
+
+  .left{
+   border-right: 200px;
+   padding: 20px;
+   padding-right: 600px;
+   padding-left: 20px;
+  }
+
+  #name{
+   margin: 10px;
+   padding: 3px;
+   border: 10px, solid, whitesmoke;
+   height: 3vh;
+  }
+
+  #email{
+   margin: 10px;
+   padding: 3px;
+   border: 10px, solid, whitesmoke;
+   height: 3vh;
+  }
+
+  #phone{
+   margin: 10px;
+   padding: 3px;
+   border: 10px, solid, whitesmoke;
+   height: 3vh;
+  }
+
+  #description{
+   margin: 10px;
+   padding: 4px;
+   height: 18vh;
+  }
+
+  #weekday{
+   font-family: Arial, sans-serif;
+   font-size: 60px;
+  }
+
+  input[placeholder]{
+   font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+  }
+
+  .right{
+   float: right;
+   margin-left: 10px;
+   margin-top: -450px;
+   margin-right: 800px;
+   padding: 50px;
+   padding-left: 10px;
+  }
+
+  .line{
+   border-bottom: 2px solid #ccc;
+   display: block;
+  }
+
+  .submit{
+   text-align: center;
+   font-family: Arial, sans-serif;
+   margin-right: 800px;
+  }
+ </style>
+
+</head>
+<body>
+
+ <fieldset>
+
+ <form action="post" method="" enctype="multipart/form-data" name="appoint" id="appoint">
+
+  <div class="left">
+
+   <input type="text" id="name" placeholder="Name">
+   <br><br>
+
+   <input type="email" id="email" placeholder="Email"><br><br>
+
+   <input type="number" id="phone" placeholder="Phone"><br><br>
+
+   <textarea name="description" id="description" cols="40" rows="8" placeholder="Special notes, contents, or requirements"></textarea><br><br>
+  
+  </div>
+
+  <div class="right">
+
+   <label> What is the best way to reach you?</label><br>
+   <input type="radio" id="contact" value="phone">Phone<br>
+   <input type="radio" id="contact" value="Email">Email
+   <br><br>
+
+   <label>Days of week you are available for appointment</label><br>
+   <input type="checkbox" id="weekday" value="Monday">Monday<br>
+   <input type="checkbox" id="weekday" value="Tuesday">Tuesday<br>
+   <input type="checkbox" id="weekday" value="Wednesday">Wednesday<br>
+   <input type="checkbox" id="weekday" value="Thursday">Thursday<br>
+   <input type="checkbox" id="weekday" value="Friday">Friday<br>
+   <input type="checkbox" id="weekday" value="Saturday">Saturday<br><br>
+
+   <label> Best time of day for appointment</label><br>
+   <input type="checkbox" id="time" value="Morning">Morning<br>
+   <input type="checkbox" id="time" value="Afternoon">Afternoon<br><br>
+
+  </div>
+
+  <span class="line"></span><br>
+
+  <div class="submit">
+   <button type="submit" id="submit" value="submit">Request my appointment</button>
+  </div>
+ </form>
+</fieldset>
+</body>
+</html>
