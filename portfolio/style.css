@@ -79,7 +79,7 @@ body{
  margin: 20px 0 40px;
 }
 
-.btn{
+/* .btn{
  position: relative;
  display: inline-flex;
  justify-content: center;
@@ -130,7 +130,7 @@ body{
 
 .btn:hover::after{
  background-position: 100% 0;
-}
+} */
 
 .home-sci a{
  position: relative;
@@ -360,7 +360,7 @@ button:hover{
 
 /* SkillsPage */
 .skills{
- background: #1e0c22;
+ background: #241726;
  width: 100%;
  padding: 100px 0px;
 }
@@ -384,9 +384,9 @@ button:hover{
  height: 365px;
  width: 335px;
  padding: 20px 35px;
- background: #5f5a5a;
+ background: #856e6e96;
  border-radius: 20px;
- margin: 15px;
+ margin: 52px;
  position: relative;
  overflow: hidden;
  text-align: center;
@@ -396,18 +396,18 @@ button:hover{
  width: 70px;
  height: 70px;
  display: block;
- margin: 25px 0px;
+ margin: 26px 0px;
  transform: translateX(140%);
 }
 
 h5{
- color: #fff;
- font-size: 23px;
- margin-bottom: 15px;
+ color: whitesmoke;
+ font-size: 27px;
+ margin-bottom: 20px;
 }
 
 .para p{
- color: #3cf;
+ color: #fcfc;
  font-size: 16px;
  line-height: 27px;
  margin-bottom: 25px;
@@ -415,8 +415,7 @@ h5{
 
 .contact{
  width: 100%;
- height: 290px;
- background: #151414;
+ height: 490px;
  display: flex;
  align-items: center;
  flex-direction: column;
@@ -425,19 +424,20 @@ h5{
 
 .contact p{
  color: white;
- font-size: 30px;
+ font-size: 40px;
  font-weight: bold;
- margin-bottom: 25px;
+ margin-bottom: 70px;
 }
 
 footer{
  position: relative;
  width: 100%;
- height: 230px;
+ height: 350px;
  display: flex;
  flex-direction: column;
  justify-content: center;
  align-items: center;
+ background: #151414;
 }
 
 footer p:nth-child(1){
@@ -452,6 +452,7 @@ footer p:nth-child(2){
  color: white;
  margin-bottom: 30px;
  font-weight: bold;
+ text-align: center;
 }
 
 footer p:nth-child(3){
