@@ -10,63 +10,43 @@
 
   body{
    background-color: whitesmoke;
-  }
-
-  label{
    font-family: sans-serif;
-   font-size: 13px;
-   font-weight: bold;
   }
 
   .left{
-   border-right: 200px;
-   padding: 20px;
-   padding-right: 600px;
-   padding-left: 20px;
+   padding-top: 20px;
+   padding-left: 350px;
   }
 
   #name{
-   margin: 10px;
-   padding: 3px;
-   border: 10px, solid, whitesmoke;
-   height: 3vh;
+   font-size: 20px;
+   padding: 4px;
+   height: 4vh;
   }
 
   #email{
-   margin: 10px;
-   padding: 3px;
-   border: 10px, solid, whitesmoke;
-   height: 3vh;
+   font-size: 20px;
+   padding: 4px;
+   height: 4vh;
   }
 
   #phone{
-   margin: 10px;
-   padding: 3px;
-   border: 10px, solid, whitesmoke;
-   height: 3vh;
+   font-size: 20px;
+   padding: 4px;
+   height: 4vh;
   }
 
   #description{
-   margin: 10px;
+   font-size: 20px;
    padding: 4px;
    height: 18vh;
   }
 
-  #weekday{
-   font-family: Arial, sans-serif;
-   font-size: 60px;
-  }
-
-  input[placeholder]{
-   font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
-  }
-
   .right{
+   font-size: 20px;
    float: right;
-   margin-left: 10px;
-   margin-top: -450px;
-   margin-right: 800px;
-   padding: 50px;
+   margin-top: -370px;
+   margin-right: 300px;
    padding-left: 10px;
   }
 
@@ -75,10 +55,14 @@
    display: block;
   }
 
-  .submit{
+  #submit{
+   background-color: gray; /* Green */
+   border-radius: 15px;
+   color: white;
+   padding: 10px;
    text-align: center;
-   font-family: Arial, sans-serif;
-   margin-right: 800px;
+   font-size: 18px;
+   margin-left: 720px;
   }
  </style>
 
@@ -98,7 +82,7 @@
 
    <input type="number" id="phone" placeholder="Phone"><br><br>
 
-   <textarea name="description" id="description" cols="40" rows="8" placeholder="Special notes, contents, or requirements"></textarea><br><br>
+   <textarea name="description" id="description" cols="30" rows="5" placeholder="Special notes, contents, or requirements"></textarea><br><br>
   
   </div>
 
@@ -124,10 +108,7 @@
   </div>
 
   <span class="line"></span><br>
-
-  <div class="submit">
-   <button type="submit" id="submit" value="submit">Request my appointment</button>
-  </div>
+  <button type="submit" id="submit" value="submit">Request my appointment</button>
  </form>
 </fieldset>
 </body>
