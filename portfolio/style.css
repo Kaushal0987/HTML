@@ -20,11 +20,11 @@ body{
  left: 0;
  width: 100%;
  padding: 20px 10%;
- /* background-color: transparent; */
+ background-color: transparent;
  display: flex;
  justify-content: space-between;
  align-items: center;
- /* z-index: center; */
+ z-index: center;
 }
 
 .logo{
@@ -80,7 +80,7 @@ body{
  margin: 20px 0 40px;
 }
 
-/* .btn{
+.btn{
  position: relative;
  display: inline-flex;
  justify-content: center;
@@ -131,7 +131,7 @@ body{
 
 .btn:hover::after{
  background-position: 100% 0;
-} */
+}
 
 .home-sci a{
  position: relative;
@@ -146,10 +146,10 @@ body{
  color: #fff;
  text-decoration: none;
  margin: 20px 0;
- /* z-index: 1; */
+ z-index: 1;
 }
 
-/* .home-sci a::before{
+.home-sci a::before{
  content: '';
  position: absolute;
  width: 100%;
@@ -178,14 +178,14 @@ body{
 
 .home-sci a:hover::after{
  transform: scale(0);
-} */
+}
 
 .home-img{
  width: 410px;
  height: 410px;
 }
 
-/* .home-img .glowing-circle{
+.home-img .glowing-circle{
  position: relative;
  width: 100%;
  height: 100%;
@@ -223,7 +223,7 @@ body{
  border-radius: 50%;
  z-index: 1;
  overflow: hidden;
-} */
+}
 
 .image img{
  position: absolute;
@@ -287,7 +287,7 @@ body{
  margin-bottom: 45px;
 }
 
-/* button{
+button{
  position: relative;
  display: inline-flex;
  justify-content: center;
@@ -338,7 +338,7 @@ button::after{
 
 button:hover::after{
  background-position: 100% 0;
-} */
+}
 
 button{
  background-color: #f06;
@@ -347,7 +347,7 @@ button{
  border: 1px solid transparent;
  font-weight: bold;
  padding: 11px 30px;
- border-radius: 20px;
+ border-radius: 40px;
  transform: .5s ease;
  font-size: 16px;
 }
@@ -414,6 +414,7 @@ h5{
  margin-bottom: 25px;
 }
 
+/* ContactPage */
 .contact{
  width: 100%;
  height: 490px;
@@ -429,6 +430,8 @@ h5{
  font-weight: bold;
  margin-bottom: 70px;
 }
+
+/*footer*/
 
 footer{
  position: relative;
