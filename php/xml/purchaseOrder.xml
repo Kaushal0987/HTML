@@ -1,0 +1,28 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<purchaseOrder xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="purchaseOrder.xsd">
+
+  <order poid="1">
+    <orderDate>2023-08-09</orderDate>
+    <shippingAddress>
+      <houseNumber>123</houseNumber>
+      <streetName>Main Street</streetName>
+      <city>CityA</city>
+    </shippingAddress>
+    <billingAddress>
+      <houseNumber>456</houseNumber>
+      <streetName>Second Street</streetName>
+      <city>CityB</city>
+    </billingAddress>
+    <items>
+      <item itemId="101">
+        <itemName>ProductA</itemName>
+        <quantity>5</quantity>
+        <price>99.99</price>
+      </item>
+      <!-- Add more items here -->
+    </items>
+  </order>
+
+  <!-- Add more orders here -->
+
+</purchaseOrder>
